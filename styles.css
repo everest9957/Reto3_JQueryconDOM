@@ -1,0 +1,143 @@
+/* =========================================================
+   RETO 3 - ESTILOS
+   ========================================================= */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    color: #1e3c72;
+    font-size: 2rem;
+}
+
+header .intro {
+    color: #666;
+    font-style: italic;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+section h2 {
+    color: #2a5298;
+    border-bottom: 2px solid #2a5298;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+.parrafo {
+    margin-bottom: 10px;
+    padding: 6px;
+    transition: all 0.3s ease;
+}
+
+/* Divs */
+.caja {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 5px;
+    background-color: #ecf0f1;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+/* Lista */
+#lista-elementos {
+    list-style: none;
+    padding-left: 0;
+}
+
+#lista-elementos li {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-left: 4px solid #2a5298;
+    border-radius: 4px;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+form label {
+    font-weight: bold;
+    color: #2a5298;
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #2a5298;
+    box-shadow: 0 0 5px rgba(42, 82, 152, 0.5);
+}
+
+/* Botones */
+button {
+    padding: 10px 20px;
+    margin: 5px 5px 5px 0;
+    background-color: #2a5298;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #1e3c72;
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
